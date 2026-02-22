@@ -48,6 +48,7 @@ const [date,setDate]=useState("")
     *New Cake Order:*
     Name: ${name}
     Phone: ${phone}
+    Cake_Variant:${cake.name}
     Flavor: ${flavor}
     Weight: ${weight}
     DeliveryDate:${date}
