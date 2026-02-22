@@ -56,7 +56,7 @@ const [message, setMessage] = useState("");
     ${fileName ? `Reference Image: ${fileName}` : ""}
     `
     const encodedMessage=encodeURIComponent(whatsappMessage);
-    const whatsappURL=`https://wa.me/916000683738?text=${encodedMessage}`;
+    const whatsappURL=`https://wa.me/917086396368?text=${encodedMessage}`;
     window.open(whatsappURL, "_blank");
 
   }
