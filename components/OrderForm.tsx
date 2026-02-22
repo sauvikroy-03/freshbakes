@@ -29,6 +29,7 @@ const [phone, setPhone] = useState<string>("");
 const [flavor, setFlavor] = useState("");
 const [weight, setWeight] = useState("");
 const [message, setMessage] = useState("");
+const cakeName = cake?.name || "Unknown Variant"
 
 const [date,setDate]=useState("")
   const handleSubmit = (e: React.FormEvent) => {
@@ -48,7 +49,7 @@ const [date,setDate]=useState("")
     *New Cake Order:*
     Name: ${name}
     Phone: ${phone}
-    Cake_Variant:${cake.name}
+    Cake_Variant:${cakeName}
     Flavor: ${flavor}
     Weight: ${weight}
     DeliveryDate:${date}
